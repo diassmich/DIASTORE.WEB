@@ -1,0 +1,57 @@
+nav .listas {
+ background: rgb(10, 53, 117);
+ width: 1250px;
+ display: inline-block;
+ justify-content: relative ;
+ padding: 20px;
+ border-radius: 25px;
+ box-shadow: 10px 10px 20px rgba(0.2, 0, 0, 0.2);
+}
+
+a {
+   color: rgb(255, 255, 255);
+   padding: 10px 20px;
+   border-radius: 50 px;
+   position: center ;
+
+}
+
+.container{
+	width: 100%;
+	width: 100px;
+	height: 100px ;
+	display: flex;
+	gap: 10px;
+	margin-inline: 50px;
+}
+
+section{
+display: flex;
+width: 600px;
+height: 430px;
+
+}
+
+section img{
+object-position: center;
+width: 20%;
+flex-grow: 1;   
+object-fit: cover ;
+opacity: 0.8;
+transition: 0.5s;
+}
+
+section img:hover{
+
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+position: center;
+}
+
+.ffotos{
+	display: block;
+	
+}
+
+
